@@ -15,6 +15,5 @@ int main () {
         default: printf("Opcao invalida! Tente novamente.\n");
     }
 
-
     return 0;
 }
