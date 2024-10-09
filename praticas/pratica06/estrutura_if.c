@@ -8,18 +8,16 @@ int main() {
 
     int eh_divisivel_por_2 = numero % 2 == 0;
 
-    // comando if completo
     if (eh_divisivel_por_2) {
         printf("O numero %i eh par!\n", numero);
     } else {
         printf("O numero %i eh impar!\n", numero);
     }
 
-    int idade = 0;
-    printf("Entre com a sua idade: ");
+    int idade;
+    printf("Digite sua idade: ");
     deu_certo = scanf("%i", &idade);
 
-    // comando if aninhado
     if (idade < 16) {
         printf("Voce nao pode votar!\n");
     } else {
@@ -30,11 +28,10 @@ int main() {
         }
     }
 
-    float media = 0.0f;
+     float media = 0.0f;
     printf("Entre com a sua media final: ");
     deu_certo = scanf("%f", &media);
 
-    // if encadeado
     if (media >= 9.0f && media <= 10.0f) {
         printf("Sua mencao eh SS\n");
     } else if (media >= 7.0f && media <= 8.9f) {
@@ -48,7 +45,6 @@ int main() {
     } else {
         printf("Sua mencao eh SR\n");
     }
-
 
     return 0;
 }

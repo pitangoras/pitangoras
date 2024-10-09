@@ -2,7 +2,7 @@
 
 int main () {
   // entrada
-  ICMS = 
+
 
   //processamento
 

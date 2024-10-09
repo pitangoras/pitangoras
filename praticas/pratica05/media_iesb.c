@@ -7,7 +7,7 @@ int main() {
   float peso1 = 0.4;
   float peso2 = 0.6;
 
-  printf("Entre com a nota do primeiro bimestre: ");
+  printf("Entre com a nota do primeiro bimestre: ");kjm5
   int deu_certo = scanf("%f", &nota_a1);
 
   printf("Entre com a nota do segundo bimestre: ");
